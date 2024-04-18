@@ -1,0 +1,20 @@
+.dashboard {
+    margin: 16px;
+    height: 100%;
+
+    .dashboard-sections {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+
+        .dashboard-actions {
+            width: (20vw - 16px);
+            padding: 16px;
+        }
+
+        .task-list {
+            width: calc(80vw - 16px);
+            padding: 16px;
+        }
+    }
+}
